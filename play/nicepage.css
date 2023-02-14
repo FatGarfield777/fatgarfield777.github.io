@@ -40287,53 +40287,25 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: 21px 0 0 auto;
+  margin: 26px auto;
 }
 
 .u-header .u-nav-1 {
   font-size: 1.25rem;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
   font-size: 1.25rem;
 }
-
-.u-header .u-text-1 {
-  font-size: 3.75rem;
-  font-weight: 700;
-  margin: -68px 434px 33px 0;
-}
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     width: auto;
-    margin-right: 0;
   }
+}
 
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
-  }
 
-  .u-header .u-text-1 {
-    margin-top: -68px;
-    margin-right: 234px;
-    margin-left: 23px;
-  }
-}
-@media (max-width: 991px) {
-  .u-header .u-text-1 {
-    margin-right: 14px;
-  }
-}
-@media (max-width: 767px) {
-  .u-header .u-text-1 {
-    margin-right: 0;
-  }
-}
-@media (max-width: 575px) {
-  .u-header .u-text-1 {
-    font-size: 3rem;
-  }
-}
+
  .u-footer {
   background-image: none;
 }
