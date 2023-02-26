@@ -40465,16 +40465,16 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 83px;
+  min-height: 88px;
 }
 
 .u-header .u-menu-1 {
-  margin: -1px auto 0;
+  margin: 4px auto 0;
 }
 
 .u-header .u-nav-1 {
-  font-size: 1.5rem;
   font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .u-header .u-nav-2 {
@@ -40490,12 +40490,47 @@ a.u-link.u-text-hover-grey-90:hover {
   box-shadow: 2px 0 0 0 rgba(0,0,0,0);
   text-shadow: 0px 0px 0px rgba(0,0,0,0);
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  margin: -79px auto 4px 24px;
+  margin: -81px auto 0 24px;
+}
+
+.u-header .u-search-1 {
+  height: auto;
+  width: 200px;
+  min-height: 38px;
+  margin: -57px 110px 0 auto;
+}
+
+.u-header .u-social-icons-1 {
+  height: 49px;
+  min-height: 16px;
+  width: 107px;
+  min-width: 42px;
+  margin: -43px auto 19px 179px;
+}
+
+.u-header .u-icon-1 {
+  height: 0;
+}
+
+.u-header .u-icon-2 {
+  height: 100%;
+  color: rgb(0, 137, 203) !important;
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
-    margin-top: -79px;
+    margin-top: -81px;
     margin-left: 24px;
+  }
+
+  .u-header .u-search-1 {
+    margin-top: -57px;
+  }
+
+  .u-header .u-social-icons-1 {
+    height: 49px;
+    width: 49px;
+    min-width: 16px;
+    margin-bottom: 19px;
   }
 }
 
