@@ -10,12 +10,38 @@
 .u-section-1 .u-text-2 {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 60px;
-  font-size: 1.25rem;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+.u-section-1 .u-image-1 {
+  width: 909px;
+  height: 259px;
+  filter: brightness(0);
+  margin: 57px auto 60px;
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-image-1 {
+    width: 720px;
+    height: 205px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 154px;
+  }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-text-1 {
     font-size: 1.875rem;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 97px;
   }
 }
