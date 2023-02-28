@@ -194,7 +194,19 @@
   margin: 0 0 36px 847px;
 }
 
+.u-section-1 .u-form-group-1 {
+  margin-left: 0;
+}
+
 .u-section-1 .u-label-1 {
+  font-size: 1.25rem;
+}
+
+.u-section-1 .u-form-group-2 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-label-2 {
   font-size: 1.25rem;
 }
 
