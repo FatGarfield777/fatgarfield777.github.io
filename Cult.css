@@ -15,14 +15,6 @@
   font-weight: 700;
   transition-duration: 0.5s;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  margin: 19px auto 0;
-}
-
-.u-section-1 .u-image-1 {
-  height: 170px;
-  box-shadow: 0px 0px 0px rgba(0,0,0,0);
-  text-shadow: 0px 0px 0px rgba(0,0,0,0);
-  width: 170px;
   margin: 19px auto 60px;
 }
 
