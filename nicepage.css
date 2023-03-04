@@ -40493,19 +40493,12 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: -81px auto 0 24px;
 }
 
-.u-header .u-search-1 {
-  height: auto;
-  width: 200px;
-  min-height: 38px;
-  margin: -57px 110px 0 auto;
-}
-
 .u-header .u-social-icons-1 {
   height: 49px;
   min-height: 16px;
   width: 107px;
   min-width: 42px;
-  margin: -43px auto 19px 179px;
+  margin: -62px auto 19px 179px;
 }
 
 .u-header .u-icon-1 {
@@ -40522,14 +40515,11 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-left: 24px;
   }
 
-  .u-header .u-search-1 {
-    margin-top: -57px;
-  }
-
   .u-header .u-social-icons-1 {
     height: 49px;
     width: 49px;
     min-width: 16px;
+    margin-top: -62px;
     margin-bottom: 19px;
   }
 }
