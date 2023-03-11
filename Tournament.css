@@ -162,6 +162,10 @@
   margin-left: 0;
 }
 
+.u-section-1 .u-form-group-3 {
+  margin-left: 0;
+}
+
 .u-section-1 .u-text-10 {
   margin-left: 0;
   font-size: 1.5rem;
@@ -172,7 +176,16 @@
   padding: 0;
 }
 
+.u-section-1 .u-form-group-5 {
+  margin-left: 0;
+}
+
 .u-section-1 .u-btn-2 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-1 .u-btn-3 {
   background-image: none;
 }
 
