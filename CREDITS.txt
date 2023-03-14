@@ -1,0 +1,34 @@
+None of the games, or hacks that I provide on my website were created by me withe the exception of Garfield 2048 and the Cloaker. All Hacks were made by an awesome github user by the name of Legend7269. All games have creators listed as following:
+
+Cookie Clicker - Ortiel
+
+Crossy Road - Hipster Whale
+
+Doge Miner - DogeminerDev
+
+Geometry Dash - Original by Robtop Games, Scratch version by Griffpatch
+
+Hextris - David King
+
+Paper.io - Voodoo
+
+Retro Bowl - New Star Games
+
+Slope - Y8
+
+Stack - Double Fine
+
+Stickman Hook - Madbox
+
+Subway Surfers - SYBO and Kiloo
+
+Roblox - Now.gg 
+
+EaglerCraft - ayunami2000
+
+Flappy Bird - Dong Nguyen
+
+Snake - Taneli Armanto
+
+
+If you want me to take your game off of my website, all you need to do is ask. Submit a suggestion on my games page or create an issue on my Github Repository.

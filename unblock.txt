@@ -1,0 +1,11 @@
+158.101.114.159
+
+chrome://os-settings/networks?type=WiFi
+
+chrome://network/#state
+
+chrome://settings/clearBrowserData
+
+https://ssl.google-analytics.com/
+
+type without spaces or quotes "thisisunsafe"
