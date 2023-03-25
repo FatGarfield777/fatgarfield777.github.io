@@ -32,5 +32,6 @@ Scrap Metal 3 Infernal Trap: Pacogames/Gamearter.com
 
 Snake - Taneli Armanto
 
+Basketball Stars - Madpuffers
 
 If you want me to take your game off of my website, all you need to do is ask. Submit a suggestion on my games page or create an issue on my Github Repository.

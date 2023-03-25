@@ -486,14 +486,15 @@
 }
 
 .u-section-1 .u-list-4 {
-  width: 196px;
+  width: 397px;
   margin: 0 auto 0 -18px;
 }
 
 .u-section-1 .u-repeater-4 {
   min-height: 271px;
-  grid-template-columns: 100%;
+  grid-template-columns: calc(50% - 2.5px) calc(50% - 2.5px);
   grid-gap: 5px 5px;
+  grid-auto-columns: calc(50% - 2.5px);
 }
 
 .u-section-1 .u-list-item-19 {
@@ -520,6 +521,30 @@
   margin: 6px 1px 0;
 }
 
+.u-section-1 .u-list-item-20 {
+  transition-duration: 1s;
+  box-shadow: -2px 0px 0px 0px rgba(0,0,0,0);
+  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+}
+
+.u-section-1 .u-container-layout-20 {
+  padding: 10px 9px;
+}
+
+.u-section-1 .u-image-20 {
+  height: 169px;
+  box-shadow: 0px 0px 0px rgba(0,0,0,0);
+  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  margin: 0;
+}
+
+.u-section-1 .u-text-20 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 6px 1px 0;
+}
+
 .u-section-1 .u-group-1 {
   width: 344px;
   min-height: 531px;
@@ -531,7 +556,7 @@
   margin: 0 -40px 52px 836px;
 }
 
-.u-section-1 .u-text-20 {
+.u-section-1 .u-text-21 {
   font-size: 1.5rem;
   width: 304px;
   margin: 0 20px;
@@ -758,7 +783,16 @@
     margin-left: 0;
   }
 
+  .u-section-1 .u-repeater-4 {
+    grid-template-columns: repeat(2, calc(50% - 2.5px));
+  }
+
   .u-section-1 .u-image-19 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-image-20 {
     margin-right: initial;
     margin-left: initial;
   }
@@ -908,6 +942,23 @@
     margin-left: initial;
   }
 
+  .u-section-1 .u-repeater-4 {
+    grid-template-columns: 100%;
+    grid-auto-columns: calc(100% - 0px);
+  }
+
+  .u-section-1 .u-image-19 {
+    height: 355px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-image-20 {
+    height: 355px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
   .u-section-1 .u-group-1 {
     margin-left: 576px;
   }
@@ -1052,6 +1103,10 @@
     margin-left: initial;
   }
 
+  .u-section-1 .u-repeater-4 {
+    grid-auto-columns: 100%;
+  }
+
   .u-section-1 .u-group-1 {
     margin-left: 406px;
   }
@@ -1190,13 +1245,39 @@
     margin-left: initial;
   }
 
+  .u-section-1 .u-list-4 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-image-19 {
+    height: 302px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-text-19 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-image-20 {
+    height: 302px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-text-20 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .u-section-1 .u-group-1 {
     width: 340px;
     margin-right: 0;
     margin-left: 0;
   }
 
-  .u-section-1 .u-text-20 {
+  .u-section-1 .u-text-21 {
     margin-left: 18px;
     margin-right: 18px;
   }
@@ -1935,5 +2016,43 @@
 }
 
 .u-container-layout.hover .u-section-1 .u-list-item-19 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-section-1 .u-list-item-20,
+.u-section-1 .u-list-item-20:before,
+.u-section-1 .u-list-item-20 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-section-1 .u-list-item-20.u-list-item-20.u-list-item-20:hover:before {
+  background-color: #00cfff !important;
+}
+
+.u-section-1 .u-list-item-20.u-list-item-20.u-list-item-20:hover {
+  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  transform: translateX(0px) translateY(0px) scale(1.25) rotate(0deg) !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.u-section-1 .u-list-item-20 {
+  border-color: transparent !important;
+}
+
+.u-section-1 .u-list-item-20.u-list-item-20.u-list-item-20.hover {
+  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  transform: translateX(0px) translateY(0px) scale(1.25) rotate(0deg) !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.u-section-1 .u-list-item-20 {
+  border-color: transparent !important;
+}
+
+.u-section-1 .u-container-layout:hover .u-list-item-20 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-1 .u-list-item-20 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 }
