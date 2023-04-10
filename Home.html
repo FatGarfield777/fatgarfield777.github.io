@@ -69,10 +69,59 @@
       </div></header>
     <section class="u-clearfix u-section-1" id="sec-bfbe">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-text u-text-default u-text-1">Hello. <br>
+        <h1 class="u-text u-text-default u-title u-text-1">FatGarfield777 Games<br>
         </h1>
-        <p class="u-text u-text-default u-text-2">This is a homepage.</p>
-        <img class="u-image u-image-contain u-image-default u-opacity u-opacity-75 u-preserve-proportions u-image-1" src="images/Homepage.png" alt="" data-image-width="875" data-image-height="225">
+        <div class="u-clearfix u-custom-html u-expanded-width u-custom-html-1">
+          <div id="random-message" style="font-family: 'Roboto', sans-serif; font-size: 36px; text-align: center;"></div>
+          <style> #random-message {
+    text-align: center;
+  } </style>
+          <div id="random-message"></div>
+          <script> const messages = [
+    "It's 2023 and you still don't know how to code?",
+    "♩ BK, Have it your way ♩",
+    "I ran out of ideas.",
+    "Don't do drugs kids.",
+    "Don't be bored, play more games",
+    "Scientific proven fact: Game more and it increases your IQ",
+    "What color is your Bugatti?",
+    "Imagine not being smart...",
+    "An incredible unblocked games website, that has so much more.",
+    "Do people actually read this?",
+    "*silent moment of cringe*",
+    "For students, by students.",
+    "@FatGarfield777",
+    "What da dog doin?",
+    "lol",
+    "xd",
+    "XD",
+	"♩ Never Gonna Give You Up! ♩",
+	"♩ Never Gonna Give You Up! ♩",
+	"♩ Never Gonna Give You Up! ♩"
+  ];
+  // Shuffle the messages randomly
+  const shuffledMessages = messages.slice().sort(() => Math.random() - 0.5);
+  const messageElement = document.getElementById("random-message");
+  const randomIndex = Math.floor(Math.random() * shuffledMessages.length);
+  messageElement.innerHTML = shuffledMessages[randomIndex]; </script>
+        </div>
+        <div class="u-clearfix u-custom-html u-expanded-width u-custom-html-2">
+          <div id="random-message"></div>
+          <script> const messages = [
+    "Hello, world!",
+    "Welcome to my website!",
+    "Thanks for stopping by!",
+    "Have a great day!",
+    "Stay safe and healthy!",
+    "Good luck on your journey!",
+  ];
+  function displayRandomMessage() {
+    const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+    document.getElementById("random-message").innerHTML = randomMessage;
+  }
+  // Display a new message every 5 seconds
+  setInterval(displayRandomMessage, 5000); </script>
+        </div>
       </div>
     </section>
     
