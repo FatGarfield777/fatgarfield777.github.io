@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Satisfiying Ball</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      #ball {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: red;
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="ball"></div>
+    <script>
+      const ball = document.querySelector("#ball");
+      let x = 0;
+      let y = 0;
+      let xSpeed = 7;
+      let ySpeed = 4;
+      const colors = ["red", "orange", "yellow", "green", "blue", "purple"];
+      let currentColor = 0;
+      
+      function animate() {
+        x += xSpeed;
+        y += ySpeed;
+        ball.style.left = x + "px";
+        ball.style.top = y + "px";
+        
+        if (x + ball.offsetWidth > window.innerWidth || x < 0) {
+          xSpeed *= -1;
+          currentColor = (currentColor + 1) % colors.length;
+          ball.style.backgroundColor = colors[currentColor];
+        }
+        
+        if (y + ball.offsetHeight > window.innerHeight || y < 0) {
+          ySpeed *= -1;
+          currentColor = (currentColor + 1) % colors.length;
+          ball.style.backgroundColor = colors[currentColor];
+        }
+        
+        requestAnimationFrame(animate);
+      }
+      
+      animate();
+    </script>
+  </body>
+</html>
