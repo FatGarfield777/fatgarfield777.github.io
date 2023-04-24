@@ -1,5 +1,5 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 1668px;
+  min-height: 1716px;
   margin-bottom: 0;
 }
 
@@ -486,15 +486,15 @@
 }
 
 .u-section-1 .u-list-4 {
-  width: 597px;
-  margin: 0 auto 0 -18px;
+  width: 980px;
+  margin: 1px -18px 0;
 }
 
 .u-section-1 .u-repeater-4 {
   min-height: 271px;
-  grid-template-columns: calc(33.3333% - 3.33333px) calc(33.3333% - 3.33333px) calc(33.3333% - 3.33333px);
+  grid-template-columns: calc(20% - 4px) calc(20% - 4px) calc(20% - 4px) calc(20% - 4px) calc(20% - 4px);
   grid-gap: 5px 5px;
-  grid-auto-columns: calc(33.3333% - 3.33333px);
+  grid-auto-columns: calc(20% - 4px);
 }
 
 .u-section-1 .u-list-item-19 {
@@ -569,8 +569,56 @@
   margin: 6px 1px 0;
 }
 
+.u-section-1 .u-list-item-22 {
+  transition-duration: 1s;
+  box-shadow: -2px 0px 0px 0px rgba(0,0,0,0);
+  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+}
+
+.u-section-1 .u-container-layout-22 {
+  padding: 10px 9px;
+}
+
+.u-section-1 .u-image-22 {
+  height: 169px;
+  box-shadow: 0px 0px 0px rgba(0,0,0,0);
+  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  margin: 0;
+}
+
+.u-section-1 .u-text-22 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 6px 1px 0;
+}
+
+.u-section-1 .u-list-item-23 {
+  transition-duration: 1s;
+  box-shadow: -2px 0px 0px 0px rgba(0,0,0,0);
+  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+}
+
+.u-section-1 .u-container-layout-23 {
+  padding: 10px 9px;
+}
+
+.u-section-1 .u-image-23 {
+  height: 169px;
+  box-shadow: 0px 0px 0px rgba(0,0,0,0);
+  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  margin: 0;
+}
+
+.u-section-1 .u-text-23 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 6px 1px 0;
+}
+
 .u-section-1 .u-custom-html-2 {
-  margin-top: 30px;
+  margin-top: 29px;
   margin-bottom: 60px;
 }
 
@@ -753,27 +801,74 @@
   }
 
   .u-section-1 .u-list-4 {
+    width: 940px;
+    margin-top: 409px;
+    margin-right: 0;
     margin-left: 0;
   }
 
   .u-section-1 .u-repeater-4 {
-    grid-template-columns: calc(50% - 2.5px) calc(50% - 2.5px);
-    grid-auto-columns: calc(33.333333333333336% - 3.33333px);
+    min-height: 260px;
+    grid-template-columns: repeat(5, calc(20% - 4px));
   }
 
   .u-section-1 .u-image-19 {
+    height: 161px;
     margin-right: initial;
     margin-left: initial;
+  }
+
+  .u-section-1 .u-text-19 {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-1 .u-image-20 {
+    height: 161px;
     margin-right: initial;
     margin-left: initial;
   }
 
+  .u-section-1 .u-text-20 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .u-section-1 .u-image-21 {
+    height: 161px;
     margin-right: initial;
     margin-left: initial;
+  }
+
+  .u-section-1 .u-text-21 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-image-22 {
+    height: 161px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-text-22 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-image-23 {
+    height: 161px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-text-23 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-custom-html-2 {
+    margin-top: 96px;
   }
 }
 
@@ -912,28 +1007,49 @@
     margin-left: initial;
   }
 
+  .u-section-1 .u-list-4 {
+    width: 720px;
+    margin-top: 447px;
+  }
+
   .u-section-1 .u-repeater-4 {
-    min-height: 825px;
-    grid-template-columns: repeat(2, calc(50% - 2.4999975px));
-    grid-auto-columns: calc(50% - 2.4999975px);
+    min-height: 674px;
+    grid-template-columns: repeat(3, calc(33.333333333333336% - 3.3333333333333335px));
+    grid-auto-columns: calc(33.333333333333336% - 3.3333333333333335px);
   }
 
   .u-section-1 .u-image-19 {
-    height: 262px;
+    height: 210px;
     margin-right: initial;
     margin-left: initial;
   }
 
   .u-section-1 .u-image-20 {
-    height: 262px;
+    height: 210px;
     margin-right: initial;
     margin-left: initial;
   }
 
   .u-section-1 .u-image-21 {
-    height: 262px;
+    height: 210px;
     margin-right: initial;
     margin-left: initial;
+  }
+
+  .u-section-1 .u-image-22 {
+    height: 210px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-image-23 {
+    height: 210px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-custom-html-2 {
+    margin-top: -342px;
   }
 }
 
@@ -1074,44 +1190,47 @@
 
   .u-section-1 .u-list-4 {
     width: 540px;
+    margin-top: 826px;
   }
 
   .u-section-1 .u-repeater-4 {
-    grid-template-columns: 100%;
-    grid-auto-columns: calc(100% - 0px);
+    min-height: 1144px;
+    grid-template-columns: repeat(2, calc(50% - 2.5px));
+    grid-auto-columns: calc(50% - 2.5px);
   }
 
   .u-section-1 .u-image-19 {
-    height: 488px;
+    height: 238px;
     margin-right: initial;
     margin-left: initial;
-  }
-
-  .u-section-1 .u-text-19 {
-    margin-left: 0;
-    margin-right: 0;
   }
 
   .u-section-1 .u-image-20 {
-    height: 488px;
+    height: 238px;
     margin-right: initial;
     margin-left: initial;
-  }
-
-  .u-section-1 .u-text-20 {
-    margin-left: 0;
-    margin-right: 0;
   }
 
   .u-section-1 .u-image-21 {
-    height: 488px;
+    height: 238px;
     margin-right: initial;
     margin-left: initial;
   }
 
-  .u-section-1 .u-text-21 {
-    margin-left: 0;
-    margin-right: 0;
+  .u-section-1 .u-image-22 {
+    height: 238px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-image-23 {
+    height: 238px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-custom-html-2 {
+    margin-top: -811px;
   }
 }
 
@@ -1250,28 +1369,47 @@
 
   .u-section-1 .u-list-4 {
     width: 340px;
+    margin-top: 1254px;
   }
 
   .u-section-1 .u-repeater-4 {
-    grid-auto-columns: 100%;
+    grid-template-columns: 100%;
+    grid-auto-columns: calc(100% - 0px);
   }
 
   .u-section-1 .u-image-19 {
-    height: 301px;
+    height: 304px;
     margin-right: initial;
     margin-left: initial;
   }
 
   .u-section-1 .u-image-20 {
-    height: 301px;
+    height: 304px;
     margin-right: initial;
     margin-left: initial;
   }
 
   .u-section-1 .u-image-21 {
-    height: 301px;
+    height: 304px;
     margin-right: initial;
     margin-left: initial;
+  }
+
+  .u-section-1 .u-image-22 {
+    height: 304px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-image-23 {
+    height: 304px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-custom-html-2 {
+    margin-top: -1921px;
+    margin-bottom: 21px;
   }
 }
 
@@ -1285,10 +1423,6 @@
   box-shadow: 0px 0px 0px  rgba(128,128,128,0) !important;
   transform: translateX(0px) translateY(0px) scale(1.25) rotate(0deg) !important;
   text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
-}
-
-.u-section-1 .u-list-item-1.u-list-item-1.u-list-item-1:hover:before {
-  background-color: #00cfff !important;
 }
 
 .u-section-1 .u-list-item-1 {
@@ -1325,10 +1459,6 @@
   text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
 }
 
-.u-section-1 .u-list-item-2.u-list-item-2.u-list-item-2:hover:before {
-  background-color: #00cfff !important;
-}
-
 .u-section-1 .u-list-item-2 {
   border-color: transparent !important;
 }
@@ -1361,10 +1491,6 @@
   box-shadow: 0px 0px 0px  rgba(128,128,128,0) !important;
   transform: translateX(0px) translateY(0px) scale(1.25) rotate(0deg) !important;
   text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
-}
-
-.u-section-1 .u-list-item-3.u-list-item-3.u-list-item-3:hover:before {
-  background-color: #00cfff !important;
 }
 
 .u-section-1 .u-list-item-3 {
@@ -1401,10 +1527,6 @@
   text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
 }
 
-.u-section-1 .u-list-item-4.u-list-item-4.u-list-item-4:hover:before {
-  background-color: #00cfff !important;
-}
-
 .u-section-1 .u-list-item-4 {
   border-color: transparent !important;
 }
@@ -1437,10 +1559,6 @@
   box-shadow: 0px 0px 0px  rgba(128,128,128,0) !important;
   transform: translateX(0px) translateY(0px) scale(1.25) rotate(0deg) !important;
   text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
-}
-
-.u-section-1 .u-list-item-5.u-list-item-5.u-list-item-5:hover:before {
-  background-color: #00cfff !important;
 }
 
 .u-section-1 .u-list-item-5 {
@@ -1477,10 +1595,6 @@
   text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
 }
 
-.u-section-1 .u-list-item-6.u-list-item-6.u-list-item-6:hover:before {
-  background-color: #00cfff !important;
-}
-
 .u-section-1 .u-list-item-6 {
   border-color: transparent !important;
 }
@@ -1507,10 +1621,6 @@
 .u-section-1 .u-list-item-7:before,
 .u-section-1 .u-list-item-7 > .u-container-layout:before {
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
-}
-
-.u-section-1 .u-list-item-7.u-list-item-7.u-list-item-7:hover:before {
-  background-color: #00cfff !important;
 }
 
 .u-section-1 .u-list-item-7.u-list-item-7.u-list-item-7:hover {
@@ -1547,10 +1657,6 @@
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
 }
 
-.u-section-1 .u-list-item-8.u-list-item-8.u-list-item-8:hover:before {
-  background-color: #00cfff !important;
-}
-
 .u-section-1 .u-list-item-8.u-list-item-8.u-list-item-8:hover {
   box-shadow: 0px 0px 0px  rgba(128,128,128,0) !important;
   transform: translateX(0px) translateY(0px) scale(1.25) rotate(0deg) !important;
@@ -1583,10 +1689,6 @@
 .u-section-1 .u-list-item-9:before,
 .u-section-1 .u-list-item-9 > .u-container-layout:before {
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
-}
-
-.u-section-1 .u-list-item-9.u-list-item-9.u-list-item-9:hover:before {
-  background-color: #00cfff !important;
 }
 
 .u-section-1 .u-list-item-9.u-list-item-9.u-list-item-9:hover {
@@ -1623,10 +1725,6 @@
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
 }
 
-.u-section-1 .u-list-item-10.u-list-item-10.u-list-item-10:hover:before {
-  background-color: #00cfff !important;
-}
-
 .u-section-1 .u-list-item-10.u-list-item-10.u-list-item-10:hover {
   box-shadow: 0px 0px 0px  rgba(128,128,128,0) !important;
   transform: translateX(0px) translateY(0px) scale(1.25) rotate(0deg) !important;
@@ -1659,10 +1757,6 @@
 .u-section-1 .u-list-item-11:before,
 .u-section-1 .u-list-item-11 > .u-container-layout:before {
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
-}
-
-.u-section-1 .u-list-item-11.u-list-item-11.u-list-item-11:hover:before {
-  background-color: #00cfff !important;
 }
 
 .u-section-1 .u-list-item-11.u-list-item-11.u-list-item-11:hover {
@@ -1699,10 +1793,6 @@
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
 }
 
-.u-section-1 .u-list-item-12.u-list-item-12.u-list-item-12:hover:before {
-  background-color: #00cfff !important;
-}
-
 .u-section-1 .u-list-item-12.u-list-item-12.u-list-item-12:hover {
   box-shadow: 0px 0px 0px  rgba(128,128,128,0) !important;
   transform: translateX(0px) translateY(0px) scale(1.25) rotate(0deg) !important;
@@ -1735,10 +1825,6 @@
 .u-section-1 .u-list-item-13:before,
 .u-section-1 .u-list-item-13 > .u-container-layout:before {
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
-}
-
-.u-section-1 .u-list-item-13.u-list-item-13.u-list-item-13:hover:before {
-  background-color: #00cfff !important;
 }
 
 .u-section-1 .u-list-item-13.u-list-item-13.u-list-item-13:hover {
@@ -1775,10 +1861,6 @@
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
 }
 
-.u-section-1 .u-list-item-14.u-list-item-14.u-list-item-14:hover:before {
-  background-color: #00cfff !important;
-}
-
 .u-section-1 .u-list-item-14.u-list-item-14.u-list-item-14:hover {
   box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
   transform: translateX(0px) translateY(0px) scale(1.25) rotate(0deg) !important;
@@ -1811,10 +1893,6 @@
 .u-section-1 .u-list-item-15:before,
 .u-section-1 .u-list-item-15 > .u-container-layout:before {
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
-}
-
-.u-section-1 .u-list-item-15.u-list-item-15.u-list-item-15:hover:before {
-  background-color: #00cfff !important;
 }
 
 .u-section-1 .u-list-item-15.u-list-item-15.u-list-item-15:hover {
@@ -1851,10 +1929,6 @@
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
 }
 
-.u-section-1 .u-list-item-16.u-list-item-16.u-list-item-16:hover:before {
-  background-color: #00cfff !important;
-}
-
 .u-section-1 .u-list-item-16.u-list-item-16.u-list-item-16:hover {
   box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
   transform: translateX(0px) translateY(0px) scale(1.25) rotate(0deg) !important;
@@ -1887,10 +1961,6 @@
 .u-section-1 .u-list-item-17:before,
 .u-section-1 .u-list-item-17 > .u-container-layout:before {
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
-}
-
-.u-section-1 .u-list-item-17.u-list-item-17.u-list-item-17:hover:before {
-  background-color: #00cfff !important;
 }
 
 .u-section-1 .u-list-item-17.u-list-item-17.u-list-item-17:hover {
@@ -1927,10 +1997,6 @@
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
 }
 
-.u-section-1 .u-list-item-18.u-list-item-18.u-list-item-18:hover:before {
-  background-color: #00cfff !important;
-}
-
 .u-section-1 .u-list-item-18.u-list-item-18.u-list-item-18:hover {
   box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
   transform: translateX(0px) translateY(0px) scale(1.25) rotate(0deg) !important;
@@ -1963,10 +2029,6 @@
 .u-section-1 .u-list-item-19:before,
 .u-section-1 .u-list-item-19 > .u-container-layout:before {
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
-}
-
-.u-section-1 .u-list-item-19.u-list-item-19.u-list-item-19:hover:before {
-  background-color: #00cfff !important;
 }
 
 .u-section-1 .u-list-item-19.u-list-item-19.u-list-item-19:hover {
@@ -2003,10 +2065,6 @@
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
 }
 
-.u-section-1 .u-list-item-20.u-list-item-20.u-list-item-20:hover:before {
-  background-color: #00cfff !important;
-}
-
 .u-section-1 .u-list-item-20.u-list-item-20.u-list-item-20:hover {
   box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
   transform: translateX(0px) translateY(0px) scale(1.25) rotate(0deg) !important;
@@ -2041,10 +2099,6 @@
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
 }
 
-.u-section-1 .u-list-item-21.u-list-item-21.u-list-item-21:hover:before {
-  background-color: #00cfff !important;
-}
-
 .u-section-1 .u-list-item-21.u-list-item-21.u-list-item-21:hover {
   box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
   transform: translateX(0px) translateY(0px) scale(1.25) rotate(0deg) !important;
@@ -2070,5 +2124,107 @@
 }
 
 .u-container-layout.hover .u-section-1 .u-list-item-21 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-section-1 .u-list-item-22,
+.u-section-1 .u-list-item-22:before,
+.u-section-1 .u-list-item-22 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-section-1 .u-list-item-22.u-list-item-22.u-list-item-22:hover {
+  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  transform: translateX(0px) translateY(0px) scale(1.25) rotate(0deg) !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.u-section-1 .u-list-item-22 {
+  border-color: transparent !important;
+}
+
+.u-section-1 .u-list-item-22.u-list-item-22.u-list-item-22.hover {
+  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  transform: translateX(0px) translateY(0px) scale(1.25) rotate(0deg) !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.u-section-1 .u-list-item-22 {
+  border-color: transparent !important;
+}
+
+.u-section-1 .u-container-layout:hover .u-list-item-22 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-1 .u-list-item-22 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-section-1 .u-list-item-23,
+.u-section-1 .u-list-item-23:before,
+.u-section-1 .u-list-item-23 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-section-1 .u-list-item-23.u-list-item-23.u-list-item-23:hover {
+  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  transform: translateX(0px) translateY(0px) scale(1.25) rotate(0deg) !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.u-section-1 .u-list-item-23 {
+  border-color: transparent !important;
+}
+
+.u-section-1 .u-list-item-23.u-list-item-23.u-list-item-23.hover {
+  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  transform: translateX(0px) translateY(0px) scale(1.25) rotate(0deg) !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.u-section-1 .u-list-item-23 {
+  border-color: transparent !important;
+}
+
+.u-section-1 .u-container-layout:hover .u-list-item-23 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-section-1 .u-list-item-23 {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-block-89ae-170:not([data-block-selected]):not([data-cell-selected]),
+.u-block-89ae-170:not([data-block-selected]):not([data-cell-selected]):before,
+.u-block-89ae-170:not([data-block-selected]):not([data-cell-selected]) > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-block-89ae-170:not([data-block-selected]):not([data-cell-selected]).u-block-89ae-170:not([data-block-selected]):not([data-cell-selected]).u-block-89ae-170:not([data-block-selected]):not([data-cell-selected]):hover {
+  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  transform: translateX(0px) translateY(0px) scale(1.25) rotate(0deg) !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.u-block-89ae-170:not([data-block-selected]):not([data-cell-selected]) {
+  border-color: transparent !important;
+}
+
+.u-block-89ae-170:not([data-block-selected]):not([data-cell-selected]).u-block-89ae-170:not([data-block-selected]):not([data-cell-selected]).u-block-89ae-170:not([data-block-selected]):not([data-cell-selected]).hover {
+  box-shadow: 0px 0px 0px  rgba(0,0,0,0) !important;
+  transform: translateX(0px) translateY(0px) scale(1.25) rotate(0deg) !important;
+  text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.u-block-89ae-170:not([data-block-selected]):not([data-cell-selected]) {
+  border-color: transparent !important;
+}
+
+.u-container-layout:hover .u-block-89ae-170:not([data-block-selected]):not([data-cell-selected]) {
+  transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}
+
+.u-container-layout.hover .u-block-89ae-170:not([data-block-selected]):not([data-cell-selected]) {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 }
