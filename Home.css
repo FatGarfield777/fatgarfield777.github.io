@@ -16,7 +16,11 @@
 
 .u-section-1 .u-custom-html-2 {
   margin-top: 336px;
-  margin-bottom: 60px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 30px auto 60px;
 }
 
 @media (max-width: 991px) {
