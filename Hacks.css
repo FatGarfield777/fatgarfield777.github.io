@@ -93,7 +93,20 @@
   background-image: none;
   font-size: 1.5rem;
   font-weight: 700;
-  margin: 2px auto 60px;
+  margin: 2px auto 0;
+}
+
+.u-section-1 .u-custom-html-1 {
+  height: auto;
+  min-height: 25px;
+  margin: 41px -1487px 24px 347px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-custom-html-1 {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 575px) {

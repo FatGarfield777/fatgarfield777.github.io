@@ -44,6 +44,19 @@
   margin: 30px auto 0;
 }
 
+.u-section-1 .u-custom-html-1 {
+  height: auto;
+  min-height: 25px;
+  margin: 28px -357px 12px 357px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-custom-html-1 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
 @media (max-width: 575px) {
   .u-section-1 .u-text-1 {
     font-size: 1.875rem;

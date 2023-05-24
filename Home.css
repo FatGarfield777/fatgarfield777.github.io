@@ -15,12 +15,15 @@
 }
 
 .u-section-1 .u-custom-html-2 {
-  margin-top: 336px;
-  margin-bottom: 0;
+  height: auto;
+  min-height: 25px;
+  margin: 232px -330px 60px 330px;
 }
 
-.u-section-1 .u-text-2 {
-  margin: 30px auto 60px;
+@media (max-width: 1199px) {
+  .u-section-1 .u-custom-html-2 {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 991px) {
@@ -29,7 +32,7 @@
   }
 
   .u-section-1 .u-custom-html-2 {
-    margin-top: 335px;
+    margin-right: 0;
   }
 }
 
@@ -42,5 +45,9 @@
 @media (max-width: 575px) {
   .u-section-1 .u-custom-html-1 {
     margin-top: -97px;
+  }
+
+  .u-section-1 .u-custom-html-2 {
+    margin-top: 257px;
   }
 }

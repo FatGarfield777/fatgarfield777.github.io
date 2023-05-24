@@ -158,7 +158,9 @@
 }
 
 .u-section-1 .u-custom-html-1 {
-  margin: 30px -5px 60px auto;
+  height: auto;
+  min-height: 25px;
+  margin: 242px -358px 60px 353px;
 }
 
 @media (max-width: 1199px) {
@@ -210,6 +212,7 @@
 
   .u-section-1 .u-custom-html-1 {
     margin-right: 0;
+    margin-left: 0;
   }
 }
 
