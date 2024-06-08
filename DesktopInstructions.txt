@@ -1,0 +1,6 @@
+1. run "npm install --save-dev electron"
+2. run "npm run start" to test
+3. run "npm install --save-dev @electron-forge/cli"
+4. run "npx electron-forge import"
+5. run "electron-forge make"
+6. the built app is in the out folder

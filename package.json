@@ -1,0 +1,14 @@
+{
+  "name": "fatgarfield777.github.io",
+  "version": "1.0.0",
+  "description": "Desktop app for fatgarfield777.github.io",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "FatGarfield777",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^30.1.0"
+  }
+}
